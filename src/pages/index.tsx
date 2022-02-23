@@ -5,7 +5,7 @@ import type { NextPage } from 'next';
 const Home: NextPage = () => {
   return (
     <>
-      <Meta title='Esi Views homepage' />
+      <Meta title='Cloud homepage' />
       <div>Inside Main</div>
     </>
   );

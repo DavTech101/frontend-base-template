@@ -7,9 +7,9 @@ type Props = {
 } & typeof defaultProps;
 
 const defaultProps = {
-  title: 'Esi Views',
-  keywords: 'Salons, booking, beauty',
-  description: 'Find and book local salons',
+  title: 'New Project',
+  keywords: 'Millionaire road',
+  description: 'Process and sava data',
 };
 
 const Meta = ({ description, keywords, title }: Props) => {
