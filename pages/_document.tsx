@@ -2,7 +2,9 @@ import Document, { DocumentContext } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
 //######### Component Types ##################
+
 //######### Component Styles #################
+
 //######### Component ########################
 
 export default class MyDocument extends Document {
