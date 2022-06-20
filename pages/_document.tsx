@@ -1,14 +1,14 @@
 import Document, { DocumentContext } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
-//######### Component Types ##################
+//######################### COMPONENT TYPES ################################################
 
-//######### Component Styles #################
+//######################### COMPONENT STYLES ###############################################
 
-//######### Component ########################
+//######################### COMPONENT FUNCTIONS ############################################
 
 export default class MyDocument extends Document {
-  static async getInitialProps(ctx: DocumentContext) {
+  static async getInitialProps(ctx: DocumentContext): Promise<any> {
     const sheet = new ServerStyleSheet();
     const originalRenderPage = ctx.renderPage;
     try {

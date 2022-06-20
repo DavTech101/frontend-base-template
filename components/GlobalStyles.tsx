@@ -1,15 +1,16 @@
 import { createGlobalStyle } from 'styled-components';
 import tw, { GlobalStyles as BaseStyles } from 'twin.macro';
 
-//######### Component Styles #################
+//######################### COMPONENT TYPES ################################################
 
+//######################### COMPONENT STYLES ###############################################
 const CustomStyles = createGlobalStyle`
   body {
     ${tw`antialiased`}
   }
 `;
 
-//######### Component #################
+//######################### COMPONENTS #####################################################
 
 const GlobalStyles = () => (
   <>
