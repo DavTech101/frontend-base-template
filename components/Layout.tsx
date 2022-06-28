@@ -4,25 +4,25 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import React, { ReactNode } from 'react';
 
-//######### Interfaces #################
+//######################### COMPONENT TYPES ################################################
 
 type Props = {
   children?: ReactNode;
 };
 
-//######### Component Styles #################
+//######################### COMPONENT STYLES ###############################################
 
 const Wrapper = styled.div`
-  ${tw`grid font-sans min-h-screen`};
+  ${tw`grid min-h-screen`};
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 100%;
 `;
 
-const MainContainer = tw.div`w-full py-0 px-0.5 justify-start items-center`;
+const MainContainer = tw.div`w-full justify-start items-center`;
 
 const Main = tw.main`justify-start items-center`;
 
-//######### Components #################
+//######################### COMPONENT #######################################################
 
 const Layout = ({ children }: Props) => {
   return (

@@ -1,5 +1,7 @@
 import Head from 'next/head';
 
+//######################### COMPONENT TYPES ################################################
+
 type Props = {
   description: string;
   keywords: string;
@@ -12,6 +14,9 @@ const defaultProps = {
   description: 'Process and sava data',
 };
 
+//######################### COMPONENT STYLES ###############################################
+
+//######################### COMPONENT ######################################################
 const Meta = ({ description, keywords, title }: Props) => {
   return (
     <Head>
