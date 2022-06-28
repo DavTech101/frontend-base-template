@@ -1,37 +1,33 @@
 import Meta from './Meta';
+import Navbar from '../navbar/Navbar';
+import Footer from '../footer/Footer';
 import tw, { styled } from 'twin.macro';
-import Navbar from './Navbar';
-import Footer from './Footer';
 import React, { ReactNode } from 'react';
 
 //######################### COMPONENT TYPES ################################################
-
 type Props = {
   children?: ReactNode;
 };
 
 //######################### COMPONENT STYLES ###############################################
-
 const Wrapper = styled.div`
   ${tw`grid min-h-screen`};
-  grid-template-rows: auto 1fr auto;
   grid-template-columns: 100%;
+  grid-template-rows: auto 1fr auto;
 `;
 
-const MainContainer = tw.div`w-full justify-start items-center`;
-
-const Main = tw.main`justify-start items-center`;
+const MainWrapper = tw.div``;
+const Main = tw.main``;
 
 //######################### COMPONENT #######################################################
-
 const Layout = ({ children }: Props) => {
   return (
     <Wrapper>
       <Meta />
       <Navbar />
-      <MainContainer>
+      <MainWrapper>
         <Main>{children}</Main>
-      </MainContainer>
+      </MainWrapper>
       <Footer />
     </Wrapper>
   );

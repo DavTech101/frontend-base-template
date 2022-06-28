@@ -1,3 +1,5 @@
+/** @type {import('tailwindcss').Config} */
+
 module.exports = {
   mode: 'jit',
   content: [
@@ -7,10 +9,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['ui-sans-serif', 'system-ui'],
-        serif: ['ui-serif', 'Georgia'],
         comforter: ['Patrick Hand'],
+        serif: ['ui-serif', 'Georgia'],
         garamond: ['EB Garamond', 'serif'],
+        sans: ['ui-sans-serif', 'system-ui'],
         helvetica: ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
       },
     },

@@ -1,5 +1,5 @@
-import Document, { DocumentContext } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
+import Document, { DocumentContext } from 'next/document';
 
 //######################### COMPONENT TYPES ################################################
 

@@ -1,18 +1,17 @@
 import Head from 'next/head';
 
 //######################### COMPONENT TYPES ################################################
+const defaultProps = {
+  title: 'New Project',
+  keywords: 'Millionaire road',
+  description: 'Process and sava data',
+};
 
 type Props = {
   description: string;
   keywords: string;
   title: string;
 } & typeof defaultProps;
-
-const defaultProps = {
-  title: 'New Project',
-  keywords: 'Millionaire road',
-  description: 'Process and sava data',
-};
 
 //######################### COMPONENT STYLES ###############################################
 
