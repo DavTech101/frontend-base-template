@@ -1,10 +1,10 @@
 import tw from 'twin.macro';
 
 // MAIN INDENTATION
-export const Indent = tw.div`mx-10`;
+export const Indent = tw.div`px-10`;
 
 // BOX INDENTATION
-export const BoxIndent = tw.div`m-10`;
+export const BoxIndent = tw.div`p-10`;
 
 // SECTION WITH INDENTATION
 export const SectionWrapper = tw(
