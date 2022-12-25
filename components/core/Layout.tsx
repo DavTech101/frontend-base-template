@@ -1,8 +1,8 @@
 import Meta from './Meta';
-import Navbar from '../navbar/Navbar';
-import Footer from '../footer/Footer';
 import tw, { styled } from 'twin.macro';
 import React, { ReactNode } from 'react';
+import Navbar from '@components/navbar/Navbar';
+import Footer from '@components/footer/Footer';
 
 //######################### COMPONENT TYPES ################################################
 type Props = {

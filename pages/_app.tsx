@@ -1,5 +1,5 @@
-import Layout from '../components/core/Layout';
-import GlobalStyles from '../styles/GlobalStyles';
+import Layout from '@components/core/Layout';
+import GlobalStyles from '@styles/GlobalStyles';
 
 //######################### COMPONENT TYPES ################################################
 import type { AppProps } from 'next/app';
